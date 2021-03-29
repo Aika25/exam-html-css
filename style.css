@@ -1,0 +1,497 @@
+* {
+    /* outline: 1px dotted red; */
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+div.container {
+    background-color: lightgray;
+    width: 970px;
+    min-height: 650px;
+    padding: 0px;
+}
+
+div.header {
+    background-color: cornflowerblue;
+    min-height: 50px;
+}
+
+div.header h1 {
+    color: whitesmoke;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 25px;
+    vertical-align: top;
+    font-size: 25px;
+    font-family: arial;
+}
+
+div.header h1 img {
+    width: 35px;
+    height: 35px;
+    vertical-align: bottom;
+}
+
+div.header div.header-content {
+    display: inline-block;
+    /* background-color: violet; */
+    min-height: 65px;
+    width: 765px;
+    margin-left: 30px;
+}
+
+div.content-1 {
+    width: 750px;
+    height: 20px;
+    text-align: right;
+}
+
+div.content-1 p {
+    font-size: 10px;
+    color: whitesmoke;
+    display: inline-block;
+    margin-bottom: 0px;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+div.content-1 p img {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+div.content-2 {
+    display: inline-block;
+    width: 620px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+div.content-2 select {
+    border-radius: 15px 0px 0px 15px;
+    background-color: lightgray;
+    font-size: 10px;
+    padding: 8px;
+    vertical-align: top;
+}
+
+div.content-2 input {
+    width: 440px;
+    margin-left: -4px;
+    padding: 8.5px;
+    font-size: 11px;
+    vertical-align: top;
+}
+
+div.content-2 a img {
+    background-color: yellow;
+    width: 15px;
+    height: 15px;
+    padding: 7px;
+    margin-left: -5px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+div.content-3 {
+    width: 195x;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.content-3 p {
+    margin-bottom: 0px;
+    width: 90px;
+    display: inline-block;
+    border-right: 1px solid black;
+}
+
+div.content-3 a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 11px;
+    margin-left: 55px;
+}
+
+div.content-3 select {
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    font-size: 11px;
+    margin-left: 9px;
+}
+
+div.content-3 p.cart {
+    width: 30px;
+    vertical-align: top;
+    margin-top: 5px;
+    border: 0px;
+    margin
+}
+
+div.content-3 p.cart a {
+    margin-left: 5px;
+}
+
+div.content-3 a img {
+    width: 25px;
+    height: 25px;
+}
+
+div.sub-header {
+    /* background-color: coral; */
+    min-height: 20px;
+}
+
+div.sub-header p {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+div.sub-header p a {
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.sub-header p select {
+    color: cornflowerblue;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+div.sub-header p.refund a {
+    color: crimson;
+}
+
+div.main-content {
+    background-color: #f9f9f9;
+    min-height: 220px;
+}
+
+div.main-section-1 {
+    width: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 250px;
+    padding-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.main-section-1 h1.header-1 {
+    font-size: 20px;
+    font-style: italic;
+    color: blue;
+}
+
+div.main-section-1 h1.header-2 {
+    font-size: 50px;
+    font-style: italic;
+    color: limegreen;
+}
+
+div.main-section-1 h1.header-3 {
+    font-size: 35px;
+    font-style: italic;
+    color: limegreen;
+}
+
+div.main-section-1 h1.header-4 {
+    font-size: 25px;
+    font-style: italic;
+    color: orangered;
+}
+
+div.main-section-1 h1.header-5 {
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+div.main-section-1 h1.header-5 a {
+    text-decoration: none;
+    color: blue;
+}
+
+div.main-section-1 h4.header-6 {
+    font-size: 10px;
+    margin-top: 20px;
+    color: grey;
+}
+
+div.main-section-2 {
+    display: inline-block;
+}
+
+div.main-section-2 img {
+    width: 436px;
+    height: 215px;
+}
+
+div.sub-content {
+    background-color: lightcoral;
+    width: 970px;
+    min-height: 400px;
+}
+
+div.sub-cont-header {
+    background-color: lightgray;
+    min-height: 20px;
+    /* width: 900px; */
+}
+
+div.sub-cont-header h5 {
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+div.sub-cont-header h5 a {
+    text-decoration: none;
+    color: blue;
+    margin-left: 700px;
+    font-size: 11px;
+}
+
+div.sub-cont-main {
+    width: 950px;
+    min-height: 150px;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+div.product-list1,
+div.product-list2,
+div.product-list3,
+div.product-list4,
+div.product-list5,
+div.product-list6,
+div.product-list7,
+div.product-list8 {
+    background-color: white;
+    width: 100px;
+    height: 130px;
+    font-size: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+div.product-list1 img {
+    width: 25px;
+    height: 65px;
+    margin-left: 33px;
+    margin-top: 5px;
+}
+
+div.product-list1 p.price {
+    color: blue;
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+div.product-list1 p.save {
+    color: red;
+    font-size: 7px;
+    margin-left: 5px;
+}
+
+div.product-list1 p.desc {
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+div.product-list2 img {
+    width: 60px;
+    height: 65px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+div.product-list2 p.price {
+    color: blue;
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+div.product-list2 p.desc {
+    font-size: 9px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+div.product-list3 img {
+    width: 60px;
+    height: 65px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+div.product-list3 p.price {
+    color: blue;
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+div.product-list3 p.desc {
+    font-size: 9px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+div.product-list4 img {
+    width: 65px;
+    height: 65px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+div.product-list4 p.price {
+    color: blue;
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+div.product-list4 p.save {
+    color: red;
+    font-size: 7px;
+    margin-left: 5px;
+}
+
+div.product-list4 p.desc {
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+div.product-list5 img {
+    width: 80px;
+    height: 65px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+div.product-list5 p.price {
+    color: blue;
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+div.product-list5 p.desc {
+    font-size: 9px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+div.product-list6 img {
+    width: 92px;
+    height: 65px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+div.product-list6 p.price {
+    color: blue;
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+div.product-list6 p.desc {
+    font-size: 9px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+div.product-list7 img {
+    width: 80px;
+    height: 65px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+div.product-list7 p.price {
+    color: blue;
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+div.product-list7 p.desc {
+    font-size: 9px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+div.product-list8 img {
+    width: 80px;
+    height: 65px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+div.product-list8 p.price {
+    color: blue;
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+div.product-list8 p.desc {
+    font-size: 9px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+div.sub-main {
+    background-color: royalblue;
+    min-height: 200px;
+    width: 950px;
+}
+
+div.sub-main div.ship {
+    width: 100px;
+    min-height: 130px;
+    background-color: salmon;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: limegreen;
+    display: inline-block;
+}
+
+div.ship p img {
+    /* margin-left: 10px; */
+    margin-top: 10px;
+    width: 80px;
+    height: 60px;
+}
+
+div.prod1,
+div.prod2,
+div.prod3,
+div.prod4,
+div.prod5,
+div.prod6 {
+    width: 100px;
+    min-height: 130px;
+    background-color: salmon;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.prod1 p img,
+div.prod2 p img,
+div.prod3 p img,
+div.prod4 p img,
+div.prod5 p img,
+div.prod6 p img {
+    /* margin-left: 10px; */
+    margin-top: 10px;
+    width: 80px;
+    height: 60px;
+}
